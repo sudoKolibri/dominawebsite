@@ -16,7 +16,7 @@ function Home() {
           href="#services"
           className="inline-block bg-brand hover:bg-brand-light transition-colors text-white font-semibold px-6 py-3 rounded"
         >
-          Explore Services
+          Lorem ipsum
         </a>
       </div>
     </section>
