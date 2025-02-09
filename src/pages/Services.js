@@ -14,7 +14,7 @@ function Services() {
             Velit leo aliquam
           </h3>
           <p className="text-gray-300 mt-2">
-            Description, session length, pricing, etc.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ function Services() {
             Lorem ipsum odor amet
           </h3>
           <p className="text-gray-300 mt-2">
-            Description, disclaimers, experience level, etc.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
       </div>
