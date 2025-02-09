@@ -3,12 +3,13 @@ import React from "react";
 
 function Home() {
   return (
-    <section className="bg-gradient-to-br from-black via-purple-900 to-black text-center py-20">
+    <section className="bg-gradient-to-br from-sky-800 via-sky-800 to-black text-center py-20">
       <h1 className="text-4xl md:text-6xl font-bold text-red-500">
-        Welcome to Mistress X’s Domain
+        Velit leo aliquam, auctor blandit torquent turpis.
       </h1>
       <p className="mt-4 text-xl text-gray-300">
-        Where power meets desire in a world of dark elegance.
+        Lorem ipsum odor amet, consectetuer adipiscing elit. Velit leo aliquam,
+        auctor blandit torquent turpis
       </p>
     </section>
   );

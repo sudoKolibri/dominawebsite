@@ -4,23 +4,43 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-gray-800 text-white p-4">
-      <div className="container mx-auto flex justify-between">
-        <div className="text-2xl font-bold">Mistress X</div>
+    <nav className="bg-gray-900 p-4">
+      <div className="container mx-auto flex items-center justify-between">
+        {/* Brand / Logo */}
+        <Link to="/" className="text-xl font-bold ">
+          Insert Name here
+        </Link>
+
+        {/* Navigation Links */}
         <div className="space-x-4">
-          <Link to="/" className="hover:text-gray-300">
+          <Link
+            to="/"
+            className="text-gray-300 hover:text-red-500 transition-colors"
+          >
             Home
           </Link>
-          <Link to="/services" className="hover:text-gray-300">
+          <Link
+            to="/services"
+            className="text-gray-300 hover:text-red-500 transition-colors"
+          >
             Services
           </Link>
-          <Link to="/about" className="hover:text-gray-300">
+          <Link
+            to="/about"
+            className="text-gray-300 hover:text-red-500 transition-colors"
+          >
             About
           </Link>
-          <Link to="/gallery" className="hover:text-gray-300">
+          <Link
+            to="/gallery"
+            className="text-gray-300 hover:text-red-500 transition-colors"
+          >
             Gallery
           </Link>
-          <Link to="/contact" className="hover:text-gray-300">
+          <Link
+            to="/contact"
+            className="text-gray-300 hover:text-red-500 transition-colors"
+          >
             Contact
           </Link>
         </div>

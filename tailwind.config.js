@@ -1,24 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-    // if you have other folders or file types, include them too
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        // Example custom dark color palette (optional).
-        // You can tweak these or just rely on Tailwind’s default palette.
         dark: {
-          900: "#0b0b0b",
-          800: "#181818",
+          900: "#2d2327",
+          800: "#45364b",
         },
         red: {
-          500: "#f43f5e", // Tailwind's default 'red-500'
-          // you can override or add more custom reds if you like
+          500: "62466b",
         },
         purple: {
-          900: "#6b21a8", // example 'purple-900'
+          900: "#8c93a8",
         },
       },
     },

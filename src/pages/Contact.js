@@ -27,7 +27,7 @@ function Contact() {
             Name
           </label>
           <input
-            className="w-full p-3 rounded bg-purple-900 bg-opacity-40 border border-purple-700 text-gray-100 placeholder-gray-400"
+            className="w-full p-3 rounded bg-opacity-40 border border-sky-800 text-gray-100 placeholder-gray-400"
             type="text"
             id="name"
             placeholder="Your Name"
@@ -44,7 +44,7 @@ function Contact() {
             Email
           </label>
           <input
-            className="w-full p-3 rounded bg-purple-900 bg-opacity-40 border border-purple-700 text-gray-100 placeholder-gray-400"
+            className="w-full p-3 rounded bg-opacity-40 border border-sky-800 text-gray-100 placeholder-gray-400"
             type="email"
             id="email"
             placeholder="Your Email"
@@ -61,7 +61,7 @@ function Contact() {
             Message
           </label>
           <textarea
-            className="w-full p-3 rounded bg-purple-900 bg-opacity-40 border border-purple-700 text-gray-100 placeholder-gray-400"
+            className="w-full p-3 rounded bg-opacity-40 border border-sky-800 text-gray-100 placeholder-gray-400"
             id="message"
             rows="5"
             placeholder="Your Message"

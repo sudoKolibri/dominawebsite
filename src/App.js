@@ -9,17 +9,16 @@ import Services from "./pages/Services";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 
-// Import Navbar and Footer
+// Import your Navbar and Footer
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
+      {/* Use Tailwind classes for dark background and white text */}
       <div className="bg-black text-white min-h-screen flex flex-col">
-        {/* Navbar at the top */}
         <Navbar />
-
         {/* Main content area grows to fill available space */}
         <div className="flex-grow">
           <Routes>
@@ -30,8 +29,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
-
-        {/* Footer at the bottom */}
         <Footer />
       </div>
     </Router>
