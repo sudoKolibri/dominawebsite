@@ -17,7 +17,7 @@ function Contact() {
 
   return (
     <section className="py-16 px-4 max-w-2xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-bold text-red-500 mb-6">
+      <h2 className="text-3xl md:text-4xl font-bold text-brand mb-6">
         Contact Me
       </h2>
       <form onSubmit={handleSubmit} className="space-y-6">
@@ -27,7 +27,7 @@ function Contact() {
             Name
           </label>
           <input
-            className="w-full p-3 rounded bg-opacity-40 border border-sky-800 text-gray-100 placeholder-gray-400"
+            className="w-full p-3 rounded bg-brand-dark bg-opacity-30 border border-brand-dark text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-light"
             type="text"
             id="name"
             placeholder="Your Name"
@@ -44,7 +44,7 @@ function Contact() {
             Email
           </label>
           <input
-            className="w-full p-3 rounded bg-opacity-40 border border-sky-800 text-gray-100 placeholder-gray-400"
+            className="w-full p-3 rounded bg-brand-dark bg-opacity-30 border border-brand-dark text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-light"
             type="email"
             id="email"
             placeholder="Your Email"
@@ -61,7 +61,7 @@ function Contact() {
             Message
           </label>
           <textarea
-            className="w-full p-3 rounded bg-opacity-40 border border-sky-800 text-gray-100 placeholder-gray-400"
+            className="w-full p-3 rounded bg-brand-dark bg-opacity-30 border border-brand-dark text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-light"
             id="message"
             rows="5"
             placeholder="Your Message"
@@ -75,7 +75,7 @@ function Contact() {
         {/* Submit Button */}
         <button
           type="submit"
-          className="bg-red-600 hover:bg-red-500 transition-colors text-white font-bold py-2 px-4 rounded"
+          className="bg-brand hover:bg-brand-light transition-colors text-white font-bold py-2 px-4 rounded"
         >
           Send
         </button>

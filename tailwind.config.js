@@ -3,17 +3,16 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
+      },
       colors: {
-        dark: {
-          900: "#2d2327",
-          800: "#45364b",
+        brand: {
+          DEFAULT: "#62466b", // main brand color (dusty purple)
+          light: "#8c93a8", // lighter variant
+          dark: "#2d2327", // darker / complementary shade
         },
-        red: {
-          500: "62466b",
-        },
-        purple: {
-          900: "#8c93a8",
-        },
+        // If you still want a "purple" group or "dark" group, define them here
       },
     },
   },

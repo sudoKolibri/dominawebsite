@@ -9,17 +9,15 @@ import Services from "./pages/Services";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 
-// Import your Navbar and Footer
+// Import Navbar and Footer
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
-      {/* Use Tailwind classes for dark background and white text */}
       <div className="bg-black text-white min-h-screen flex flex-col">
         <Navbar />
-        {/* Main content area grows to fill available space */}
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
